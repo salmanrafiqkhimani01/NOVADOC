@@ -2,7 +2,7 @@ import { createClassNames } from "../../utils/classNames.js";
 import { useEffect, useRef, useState } from "react";
 import { Plus, Check, X, CheckCircle2, Layers } from "lucide-react";
 import FieldEditorModal from "../Shared/FieldEditorModal.jsx";
-import ProcTemplateCard from "./ProcTemplatecard.jsx";
+import ProcTemplateCard from "./ProcTemplateCard.jsx";
 import { SEED, FIELD_TYPES, newId } from "./ProcedureTemplatesdata.js";
 import styles from "./ProcedureTemplates.module.css";
 
