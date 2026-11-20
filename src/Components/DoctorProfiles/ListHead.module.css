@@ -7,3 +7,8 @@
   background: #fff; color: #3b6fd4; font-size: 10.5px; font-weight: 600; font-family: inherit; cursor: pointer;
 }
 .dp-dash-btn:hover { background: #eef3fd; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .dp-list-head { flex-wrap: wrap; }
+}

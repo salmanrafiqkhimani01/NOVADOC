@@ -82,4 +82,21 @@
 .uc-edit:hover { background: #eff6ff; color: #4982cf; }
 .uc-del:hover { background: #fff1f2; color: #ec003f; }
 
-.uc-none { margin: 0; padding: 30px 16px; text-align: center; font-size: 11px; color: #90a1b9; }    
+.uc-none { margin: 0; padding: 30px 16px; text-align: center; font-size: 11px; color: #90a1b9; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 1100px) {
+  *:has(> .uc-row) { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+  .uc-wrap { padding: 12px 12px 12px; }
+  .uc-head { flex-wrap: wrap; }
+  .uc-bar { flex-wrap: wrap; }
+  .uc-stats { grid-template-columns: minmax(0, 1fr); }
+  .uc-slbl { flex-wrap: wrap; }
+  .uc-row { min-width: 990px; }
+  .uc-user { flex-wrap: wrap; }
+  .uc-status { flex-wrap: wrap; }
+  .uc-joined { flex-wrap: wrap; }
+  .uc-none { padding: 12px 16px; }
+}

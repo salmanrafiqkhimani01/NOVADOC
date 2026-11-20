@@ -6,3 +6,8 @@
 .doc-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: start; }
 .doc-col-body { max-height: calc(100vh - 210px); overflow-y: auto; }
 .no-sched { padding: 26px 0; text-align: center; font-size: 8.5px; color: #cbd5e1; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .doc-cols { grid-template-columns: minmax(0, 1fr); }
+}

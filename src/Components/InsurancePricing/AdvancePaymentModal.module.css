@@ -38,3 +38,11 @@
 .ipa-primary { background: #4982cf; border: 1px solid #356fbb; color: #fff; }
 .ipa-primary:hover { background: #356fbb; }
 .ipa-primary:disabled, .ipa-primary:disabled:hover { background: #4982cf; opacity: .4; cursor: not-allowed; box-shadow: none; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ipa-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .ipa-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px; }
+  .ipa-amount { flex-wrap: wrap; }
+  .ipa-foot { flex-wrap: wrap; }
+}

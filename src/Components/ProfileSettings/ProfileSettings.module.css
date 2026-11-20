@@ -321,3 +321,20 @@ img.ps-avatar { object-fit: cover; background: #e2e8f0; }
 .ps-table tbody tr:hover { background: #fbfcfd; }
 .ps-n-title { font-size: 12px; font-weight: 600; color: #314158; }
 .ps-n-sub { margin-top: 2px; font-size: 10.5px; color: #90a1b9; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ps-header { padding: 14px 12px 13px; }
+  .ps-tabs { overflow-x: auto; scrollbar-width: none; }
+  .ps-bar { flex-wrap: wrap; height: auto; min-height: 52px; }
+  .ps-body { padding: 18px 12px 12px; }
+  .ps-card-head { flex-wrap: wrap; }
+  .ps-card-foot { flex-wrap: wrap; }
+  .ps-hero { flex-wrap: wrap; }
+  .ps-grid { grid-template-columns: minmax(0, 1fr); }
+  .ps-pwd { grid-template-columns: minmax(0, 1fr); }
+  .ps-rule { flex-wrap: wrap; }
+  .ps-box { flex-wrap: wrap; }
+  .ps-opts { grid-template-columns: minmax(0, 1fr); }
+  .ps-session { flex-wrap: wrap; }
+}

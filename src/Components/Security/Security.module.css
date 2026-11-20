@@ -414,3 +414,15 @@
 .sec-toggle span {
   background: #f8fafc;
 }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .sec-header { padding: 14px 12px 13px; }
+  .sec-tabs { overflow-x: auto; scrollbar-width: none; }
+  .sec-bar { flex-wrap: wrap; height: auto; min-height: 52px; }
+  .sec-filter { flex-wrap: wrap; }
+  .sec-list { padding: 15px 12px 12px; }
+  .sec-card-head { flex-wrap: wrap; height: auto; min-height: 41px; }
+  .sec-grid { grid-template-columns: minmax(0, 1fr); }
+  .sec-box { flex-wrap: wrap; }
+}

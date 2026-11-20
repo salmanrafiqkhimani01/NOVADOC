@@ -26,3 +26,10 @@
   font-size: 10.5px; font-weight: 600; cursor: pointer; font-family: inherit;
 }
 .adm-modal-ok:hover { background: #be123c; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .adm-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .adm-modal { width: 100%; max-width: 100%; padding: 12px; }
+  .adm-modal h3 { flex-wrap: wrap; }
+}

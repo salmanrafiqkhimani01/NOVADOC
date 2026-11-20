@@ -54,3 +54,9 @@
   transition: opacity 0.2s, transform 0.2s;
 }
 .ptb-toast-show { opacity: 1; transform: translateY(0); }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ptb-top { flex-wrap: wrap; }
+  .ptb-newbox { flex-wrap: wrap; }
+}

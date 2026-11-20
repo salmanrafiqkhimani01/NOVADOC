@@ -41,3 +41,11 @@
   display: inline-flex; align-items: center; height: 13px; padding: 0 5px; background: #eff6ff; border-radius: 3px;
   font-size: 7px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: #4982cf;
 }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .qb-wrap { padding: 12px 12px 12px; }
+  .qb-row { flex-wrap: wrap; }
+  .qb-switch { flex-wrap: wrap; }
+  .qb-ghead { flex-wrap: wrap; }
+}

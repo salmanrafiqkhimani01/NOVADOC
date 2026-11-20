@@ -14,3 +14,8 @@
 .specialty { font-size: 8px; color: #64748b; margin-top: 1px; }
 .disabled { opacity: .45; cursor: default; }
 .disabled input { cursor: default; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .row { flex-wrap: wrap; }
+}

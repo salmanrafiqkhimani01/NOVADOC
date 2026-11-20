@@ -57,3 +57,13 @@
 .br-btn-c:hover { background: #f8fafc; }
 .br-btn-b { border: 1px solid #2f5fc0; background: #3b6fd4; color: #fff; font-weight: 600; padding: 8px 22px; }
 .br-btn-b:hover { background: #1e4fd8; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .br-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .br-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px; }
+  .br-grid2 { grid-template-columns: minmax(0, 1fr); }
+  .br-status-row { flex-wrap: wrap; }
+  .br-modes { grid-template-columns: minmax(0, 1fr); }
+  .br-btn-b { padding: 8px 12px; }
+}

@@ -172,3 +172,19 @@
   transition: opacity 0.2s, transform 0.2s;
 }
 .tri-toast-show { opacity: 1; transform: translateY(0); }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  *:has(> .tri-left) { flex-direction: column; height: auto; min-height: 0; overflow: visible; }
+  .tri-left { width: 100%; max-width: 100%; height: auto; max-height: 55vh; overflow-y: auto; border-right: 0; border-left: 0; border-bottom: 1px solid #e6eaf0; }
+  .tri-left-head { flex-wrap: wrap; }
+  .tri-algo-top { flex-wrap: wrap; }
+  .tri-top { flex-wrap: wrap; padding: 13px 12px 14px; }
+  .tri-top-name { width: 100%; max-width: 100%; }
+  .tri-steps { padding: 18px 18px 12px; }
+  .tri-step-head { overflow-x: auto; scrollbar-width: none; }
+  .tri-step-tools { overflow-x: auto; scrollbar-width: none; }
+  .tri-addstep { overflow-x: auto; scrollbar-width: none; }
+  .tri-pick-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tri-pick-foot { flex-wrap: wrap; }
+}

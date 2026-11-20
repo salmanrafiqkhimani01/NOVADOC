@@ -73,3 +73,10 @@
 .ie-prev-moderate .ie-pnote { color: #e17100; }
 .ie-prev-minor { background: #eff6ff; border-color: #bedbff; color: #1447e6; }
 .ie-prev-minor .ie-pnote { color: #155dfc; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ie-head { flex-wrap: wrap; height: auto; min-height: 55px; }
+  .ie-body { padding: 17px 19px 12px 18px; }
+  .ie-prev { flex-wrap: wrap; }
+}

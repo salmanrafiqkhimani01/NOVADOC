@@ -16,3 +16,9 @@
 .d-note { font-size: 8.5px; line-height: 1.5; color: #64748b; }
 .center { text-align: center; }
 .mono { font-family: 'JetBrains Mono', monospace; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .picker-head { flex-wrap: wrap; }
+  .picker-row { flex-wrap: wrap; }
+}

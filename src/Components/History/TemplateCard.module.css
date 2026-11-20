@@ -129,3 +129,15 @@
   font-size: 9.5px; line-height: 1.6; color: #2563eb;
 }
 .hist-info svg { flex-shrink: 0; margin-top: 2px; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .hist-head { flex-wrap: wrap; }
+  .hist-crow { flex-wrap: wrap; }
+  .hist-sys { flex-wrap: wrap; }
+  .hist-adds { grid-template-columns: minmax(0, 1fr); }
+  .hist-pick { max-width: calc(100vw - 24px); }
+  .hist-pick-foot { flex-wrap: wrap; }
+  .hist-newc { flex-wrap: wrap; }
+  .hist-info { flex-wrap: wrap; }
+}

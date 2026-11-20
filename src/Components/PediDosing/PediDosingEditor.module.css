@@ -47,3 +47,10 @@
 .pe-pdose b { font-weight: 700; color: #00786f; }
 .pe-pmax { font-weight: 600; color: #f54900; }
 .pe-pnotes { margin-top: 2px; font-size: 8.5px; line-height: 15px; font-style: italic; color: #90a1b9; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .pe-head { flex-wrap: wrap; height: auto; min-height: 55px; }
+  .pe-body { padding: 17px 19px 12px 18px; }
+  .pe-grid { grid-template-columns: minmax(0, 1fr); }
+}

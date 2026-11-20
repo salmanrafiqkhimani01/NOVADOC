@@ -100,3 +100,22 @@
 .lp-mnext { background: #4982cf; border: 1px solid #356fbb; font-weight: 600; color: #fff; }
 .lp-mnext:hover { background: #356fbb; }
 .lp-mnext:disabled { opacity: .5; cursor: default; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .lp-wrap { padding: 12px 12px 12px; }
+  .lp-tabs { overflow-x: auto; scrollbar-width: none; }
+  .lp-phead { flex-wrap: wrap; }
+  .lp-provcard { flex-wrap: wrap; height: auto; min-height: 64px; }
+  .lp-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .lp-modal { width: 100%; max-width: 100%; }
+  .lp-mhead { flex-wrap: wrap; }
+  .lp-mright { flex-wrap: wrap; }
+  .lp-mstepper { flex-wrap: wrap; }
+  .lp-msi { flex-wrap: wrap; }
+  .lp-mbody { padding: 12px 12px; }
+  .lp-mselhead { flex-wrap: wrap; }
+  .lp-mselactions { flex-wrap: wrap; }
+  .lp-mtrow { flex-wrap: wrap; }
+  .lp-mfoot { flex-wrap: wrap; padding: 16px 12px 12px; }
+}

@@ -30,3 +30,10 @@
 .dp-sel > div > button {
   height: 34px; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1);
 }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .dp-wrap { padding: 12px 12px 12px; }
+  .dp-info { flex-wrap: wrap; }
+  .dp-row { grid-template-columns: minmax(0, 1fr); }
+}

@@ -118,3 +118,17 @@
 .lm-tactions button { display: grid; place-items: center; padding: 1px; border: none; background: none; color: #cad5e2; cursor: pointer; }
 .lm-tactions button:hover { color: #314158; }
 .lm-tactions button:last-child:hover { color: #ec003f; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .lm-wrap { padding: 12px 12px 12px; }
+  .lm-tabs { overflow-x: auto; scrollbar-width: none; }
+  .lm-toolbar { flex-wrap: wrap; }
+  .lm-search { flex-wrap: wrap; }
+  .lm-newsection { flex-wrap: wrap; }
+  .lm-shead { flex-wrap: wrap; }
+  .lm-sactions { flex-wrap: wrap; }
+  .lm-fasting { flex-wrap: wrap; }
+  .lm-trow { flex-wrap: wrap; }
+  .lm-tactions { flex-wrap: wrap; }
+}

@@ -133,3 +133,23 @@
 .pp-mnext { background: #4982cf; border: 1px solid #356fbb; font-weight: 600; color: #fff; }
 .pp-mnext:hover { background: #356fbb; }
 .pp-mnext:disabled { opacity: .5; cursor: not-allowed; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .pp-wrap { padding: 12px 12px 12px; }
+  .pp-newrow { flex-wrap: wrap; }
+  .pp-pchead { flex-wrap: wrap; height: auto; min-height: 55px; }
+  .pp-prbar { flex-wrap: wrap; }
+  .pp-prthead { flex-wrap: wrap; }
+  .pp-prrow { flex-wrap: wrap; }
+  .pp-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .pp-modal { width: 100%; max-width: 100%; }
+  .pp-mhead { flex-wrap: wrap; }
+  .pp-mstepper { flex-wrap: wrap; }
+  .pp-msi { flex-wrap: wrap; }
+  .pp-mgrid { grid-template-columns: minmax(0, 1fr); }
+  .pp-mselhead { flex-wrap: wrap; }
+  .pp-mselactions { flex-wrap: wrap; }
+  .pp-mrow { flex-wrap: wrap; }
+  .pp-mfoot { flex-wrap: wrap; padding: 12px 12px 12px; }
+}

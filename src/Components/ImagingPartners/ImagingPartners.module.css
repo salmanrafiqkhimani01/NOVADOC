@@ -164,3 +164,30 @@
 .ip-mnext { background: #4982cf; border: 1px solid #356fbb; font-weight: 600; color: #fff; }
 .ip-mnext:hover { background: #356fbb; }
 .ip-mnext:disabled { background: #a0bee6; border-color: #a0bee6; cursor: not-allowed; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ip-wrap { height: auto; }
+  .ip-header { padding: 18px 12px 16px; }
+  .ip-hrow { flex-wrap: wrap; }
+  .ip-bar { flex-wrap: wrap; height: auto; min-height: 51px; }
+  .ip-scroll { padding: 16px 12px 12px; }
+  .ip-mhead { flex-wrap: wrap; height: auto; min-height: 42px; }
+  .ip-mfoot { flex-wrap: wrap; }
+  .ip-pchead { flex-wrap: wrap; height: auto; min-height: 55px; }
+  .ip-prbar { flex-wrap: wrap; }
+  .ip-prthead { flex-wrap: wrap; }
+  .ip-prrow { flex-wrap: wrap; }
+  .ip-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .ip-modal { width: 100%; max-width: 100%; }
+  .ip-mhead { flex-wrap: wrap; }
+  .ip-mstepper { flex-wrap: wrap; }
+  .ip-msi { flex-wrap: wrap; }
+  .ip-mgrid { grid-template-columns: minmax(0, 1fr); }
+  .ip-mselhead { flex-wrap: wrap; }
+  .ip-msearch { width: 100%; max-width: 100%; flex-wrap: wrap; }
+  .ip-tmod { flex-wrap: wrap; }
+  .ip-tpart { flex-wrap: wrap; }
+  .ip-tproto { flex-wrap: wrap; }
+  .ip-mfoot { flex-wrap: wrap; padding: 12px 12px 12px; }
+}

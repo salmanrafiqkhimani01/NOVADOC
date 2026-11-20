@@ -13,3 +13,9 @@
 .prio-pill.routine { background: #f1f5f9; color: #475569; }
 .prio-pill.urgent { background: #fef3c7; color: #d97706; }
 .prio-pill.emergency { background: #fee2e2; color: #dc2626; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .empty-state.big { height: auto; }
+  .today-row { flex-wrap: wrap; }
+}

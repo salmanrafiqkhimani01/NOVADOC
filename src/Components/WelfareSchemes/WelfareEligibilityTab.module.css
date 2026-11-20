@@ -43,3 +43,12 @@
 }
 .wse-btn:hover { background: #356fbb; }
 .wse-saved { display: inline-flex; align-items: center; gap: 5px; font-size: 11.5px; color: #009966; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .wse-grid { grid-template-columns: minmax(0, 1fr); }
+  .wse-docs { grid-template-columns: minmax(0, 1fr); }
+  .wse-tile { flex-wrap: wrap; }
+  .wse-pwd { flex-wrap: wrap; }
+  .wse-save { flex-wrap: wrap; }
+}

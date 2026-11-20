@@ -40,3 +40,11 @@
 .ipb-primary { background: #4982cf; border: 1px solid #356fbb; color: #fff; }
 .ipb-primary:hover { background: #356fbb; }
 .ipb-primary:disabled, .ipb-primary:disabled:hover { background: #4982cf; opacity: .4; cursor: not-allowed; box-shadow: none; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ipb-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .ipb-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px; }
+  .ipb-inc { flex-wrap: wrap; }
+  .ipb-foot { flex-wrap: wrap; }
+}

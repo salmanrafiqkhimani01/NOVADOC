@@ -227,3 +227,16 @@
 .csec-del-foot { display: flex; justify-content: flex-end; gap: 7px; margin-top: 28px; }
 .csec-del-btn { padding: 0 15px; border: none; background: #f43f5e; color: #fff; }
 .csec-del-btn:hover { background: #e11d48; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .csec-top { flex-wrap: wrap; }
+  .csec-newbox { flex-wrap: wrap; }
+  .csec-head { flex-wrap: wrap; }
+  .csec-sig { flex-wrap: wrap; }
+  .csec-row { flex-wrap: wrap; }
+  .csec-rules-head { flex-wrap: wrap; }
+  .csec-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .csec-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px; }
+  .csec-del-foot { flex-wrap: wrap; }
+}

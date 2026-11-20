@@ -58,3 +58,11 @@
 .dmg-off-box p { margin: 4px 0 0; font-size: 11px; color: #94a3b8; }
 .dmg-off-box b { color: #64748b; }
 .dmg-off-box small { font-size: 9px; color: #94a3b8; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .dmg-wrap { padding: 12px 12px 12px; }
+  .dmg-show { flex-wrap: wrap; }
+  .dmg-row { flex-wrap: wrap; height: auto; min-height: 40px; }
+  .dmg-off-box { padding: 12px 12px; }
+}

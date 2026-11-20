@@ -56,3 +56,14 @@
 .bn-fm-tab:hover { color: #1d293d; }
 .bn-fm-tab-on, .bn-fm-tab-on:hover { border-bottom-color: #4982cf; color: #4982cf; }
 .bn-fm-tab-on svg { color: #4982cf; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .bn-wrap { flex-wrap: wrap; }
+  .bn-side-narrow { flex: 1 1 100%; }
+  .bn-bar { flex-wrap: wrap; height: auto; min-height: 52px; }
+  .bn-row { flex-wrap: wrap; padding: 16px 12px 15px 18px; }
+  .bn-fm-wrap { height: auto; }
+  .bn-fm-header { padding: 18px 12px 14px; }
+  .bn-fm-tabs { overflow-x: auto; scrollbar-width: none; }
+}

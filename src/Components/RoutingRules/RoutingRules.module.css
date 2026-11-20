@@ -207,3 +207,22 @@ RoutingRulesData.js/* layout: header fixed, editor column scrolls on its own */
 .rr-foot { display: flex; align-items: center; gap: 8px; min-height: 56px; padding: 0 18px; }
 .rr-foot p { flex: 1; margin: 0; font-size: 10px; line-height: 14px; color: #62748e; }
 .rr-saveas { width: 100px; flex-shrink: 0; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  RoutingRulesData.js
+.rr-wrap { height: auto; }
+  .rr-head { flex-wrap: wrap; }
+  .rr-grid { grid-template-columns: minmax(0, 1fr); }
+  .rr-sum-head { flex-wrap: wrap; }
+  .rr-shead { flex-wrap: wrap; height: auto; min-height: 40px; }
+  .rr-trigger { grid-template-columns: minmax(0, 1fr); }
+  .rr-match { flex-wrap: wrap; }
+  .rr-seg { overflow-x: auto; scrollbar-width: none; }
+  .rr-step { overflow-x: auto; scrollbar-width: none; }
+  .rr-tgl { flex-wrap: wrap; }
+  .rr-rhead { flex-wrap: wrap; }
+  .rr-rgrid { grid-template-columns: minmax(0, 1fr); }
+  .rr-rnote { flex-wrap: wrap; }
+  .rr-foot { flex-wrap: wrap; }
+}

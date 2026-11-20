@@ -154,3 +154,16 @@
   transition: opacity 0.2s, transform 0.2s;
 }
 .qrg-toast-show { opacity: 1; transform: translateY(0); }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 1100px) {
+  *:has(> .qrg-grid) { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+  .qrg-card-head { flex-wrap: wrap; }
+  .qrg-newrow { flex-wrap: wrap; }
+  .qrg-inp-half { width: 100%; max-width: 100%; }
+  .qrg-form-grid { grid-template-columns: minmax(0, 1fr); }
+  .qrg-form-foot { flex-wrap: wrap; }
+  .qrg-form-req { flex-wrap: wrap; }
+}

@@ -116,4 +116,16 @@
 .shb-p-text, .shb-p-num { background: #fafbfc; border-color: #e2e8f0; }
 .shb-p-num { width: 86px; }
 .shb-p-text::placeholder, .shb-p-num::placeholder { color: #94a3b8; }
-.shb-p-checks { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 9px; color: #334155; }    
+.shb-p-checks { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 9px; color: #334155; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .shb-wrap { padding: 12px 12px 12px; }
+  .shb-grid { grid-template-columns: minmax(0, 1fr); }
+  .shb-q { flex-wrap: wrap; }
+  .shb-card-head { flex-wrap: wrap; }
+  .shb-row2 { grid-template-columns: minmax(0, 1fr); }
+  .shb-fu-head { flex-wrap: wrap; }
+  .shb-fu-top { flex-wrap: wrap; }
+  .shb-prev-head { flex-wrap: wrap; }
+}

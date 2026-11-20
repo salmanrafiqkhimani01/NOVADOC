@@ -85,3 +85,14 @@
 .ix-fm-tab:hover { color: #1d293d; }
 .ix-fm-tab-on, .ix-fm-tab-on:hover { border-bottom-color: #4982cf; color: #4982cf; }
 .ix-fm-tab-on svg { color: #4982cf; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ix-wrap { flex-wrap: wrap; }
+  .ix-side-narrow { flex: 1 1 100%; }
+  .ix-bar { flex-wrap: wrap; }
+  .ix-row { flex-wrap: wrap; padding: 14px 12px 14px 18px; }
+  .ix-fm-wrap { height: auto; }
+  .ix-fm-header { padding: 18px 12px 14px; }
+  .ix-fm-tabs { overflow-x: auto; scrollbar-width: none; }
+}

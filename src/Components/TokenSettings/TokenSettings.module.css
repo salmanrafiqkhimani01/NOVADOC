@@ -67,3 +67,14 @@
 .tk-switch .tk-tg span { background: #f8fafc; }
 .tk-off { color: #90a1b9; }
 .tk-on { color: #009966; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .tk-wrap { padding: 12px 12px 12px; }
+  .tk-preview { flex-wrap: wrap; height: auto; min-height: 133px; }
+  .tk-cols { grid-template-columns: minmax(0, 1fr); }
+  .tk-col { padding: 12px 18px 9px; }
+  .tk-seg { grid-template-columns: minmax(0, 1fr); }
+  .tk-manual { flex-wrap: wrap; height: auto; min-height: 64px; }
+  .tk-switch { flex-wrap: wrap; }
+}

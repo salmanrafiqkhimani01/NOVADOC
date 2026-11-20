@@ -19,3 +19,9 @@
 .enabled .mark { color: #3b6fd4; }
 .note { font-size: 8.5px; color: #94a3b8; margin-top: 14px; }
 .description { max-width: none; margin-bottom: 10px; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .grid { grid-template-columns: minmax(0, 1fr); }
+  .component { flex-wrap: wrap; }
+}

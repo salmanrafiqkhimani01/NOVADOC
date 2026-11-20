@@ -78,3 +78,18 @@
 .st-cancel:hover { background: #f8fafc; }
 .st-save { padding: 0 15px; background: #4982cf; border: 1px solid #356fbb; font-weight: 600; color: #fff; }
 .st-save:hover { background: #356fbb; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 1100px) {
+  *:has(> .st-row) { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+  .st-wrap { padding: 12px 12px 12px; }
+  .st-stats { grid-template-columns: minmax(0, 1fr); }
+  .st-row { min-width: 660px; }
+  .st-status { flex-wrap: wrap; }
+  .st-actions { flex-wrap: wrap; }
+  .st-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .st-modal { width: 100%; max-width: 100%; padding: 19px 12px 12px; }
+  .st-mfoot { flex-wrap: wrap; }
+}

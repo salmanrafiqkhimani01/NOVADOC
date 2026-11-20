@@ -151,3 +151,24 @@
 .ds-big .ds-cnt { font-size: 18px; }
 .ds-big .ds-ns, .ds-big .ds-queue { font-size: 12px; }
 .ds-big .ds-chips span { min-width: 64px; height: 34px; font-size: 13px; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  *:has(> .ds-cfgwrap), *:has(> .ds-list) { flex-direction: column; height: auto; min-height: 0; overflow: visible; }
+  .ds-page { height: auto; padding: 12px 12px 12px; }
+  .ds-head { flex-wrap: wrap; }
+  .ds-body { flex-wrap: wrap; }
+  .ds-list { width: 100%; max-width: 100%; height: auto; max-height: 55vh; overflow-y: auto; }
+  .ds-cfgwrap { width: 100%; max-width: 100%; height: auto; max-height: 55vh; overflow-y: auto; }
+  .ds-seg3 { grid-template-columns: minmax(0, 1fr); }
+  .ds-seg2 { grid-template-columns: minmax(0, 1fr); }
+  .ds-el { flex-wrap: wrap; }
+  .ds-last { flex-wrap: wrap; }
+  .ds-foot { flex-wrap: wrap; }
+  .ds-active { flex-wrap: wrap; }
+  .ds-livehead { flex-wrap: wrap; }
+  .ds-top { flex-wrap: wrap; }
+  .ds-topr { flex-wrap: wrap; }
+  .ds-recent { padding: 14px 12px 13px; }
+  .ds-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+}

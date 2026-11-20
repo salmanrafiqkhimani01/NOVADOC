@@ -82,3 +82,15 @@
 .ipi-primary { background: #4982cf; border: 1px solid #356fbb; color: #fff; }
 .ipi-primary:hover { background: #356fbb; }
 .ipi-primary:disabled, .ipi-primary:disabled:hover { background: #4982cf; opacity: .4; cursor: not-allowed; box-shadow: none; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ipi-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .ipi-modal { width: 100%; max-width: 100%; }
+  .ipi-grid { grid-template-columns: minmax(0, 1fr); }
+  .ipi-upload { flex-wrap: wrap; }
+  .ipi-crow { flex-wrap: wrap; }
+  .ipi-amount { flex-wrap: wrap; }
+  .ipi-pricing { flex-wrap: wrap; }
+  .ipi-foot { flex-wrap: wrap; }
+}

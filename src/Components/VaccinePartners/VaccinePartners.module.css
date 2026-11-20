@@ -115,3 +115,20 @@
 .vp-mnext:disabled { background: #a0bee6; border-color: #a0bee6; cursor: not-allowed; }
 .vp-mback { height: 28px; padding: 0 11px; font-size: 11px; }
 .vp-msave { height: 28px; padding: 0 12px; font-size: 11px; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .vp-wrap { padding: 12px 12px 12px; }
+  .vp-head { flex-wrap: wrap; }
+  .vp-tabs { overflow-x: auto; scrollbar-width: none; }
+  .vp-newrow { flex-wrap: wrap; }
+  .vp-pchead { flex-wrap: wrap; height: auto; min-height: 55px; }
+  .vp-prow { flex-wrap: wrap; height: auto; min-height: 44px; }
+  .vp-price { flex-wrap: wrap; }
+  .vp-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .vp-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px; }
+  .vp-mtypes { grid-template-columns: minmax(0, 1fr); }
+  .vp-msearch { flex-wrap: wrap; }
+  .vp-mrow { flex-wrap: wrap; }
+  .vp-mfoot { flex-wrap: wrap; }
+}

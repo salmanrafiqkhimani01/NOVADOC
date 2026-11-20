@@ -41,3 +41,15 @@
   .rp-filter-row { grid-template-columns: repeat(4, 1fr); }
   .rp-stats { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 1100px) {
+  *:has(> .rp-cols), *:has(> .rp-foot) { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+  .rp-filters-head { flex-wrap: wrap; }
+  .rp-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rp-stat { flex-wrap: wrap; }
+  .rp-body { padding: 12px 12px 12px; }
+  .rp-foot { flex-wrap: wrap; }
+}

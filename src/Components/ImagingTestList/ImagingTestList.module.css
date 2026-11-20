@@ -92,3 +92,18 @@
 .it-mcount { font-size: 10px; color: #62748e; }
 
 .it-mfoot { display: flex; align-items: center; gap: 8px; padding: 20px 22px 22px; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .it-wrap { height: auto; }
+  .it-header { padding: 18px 12px 16px; }
+  .it-hrow { flex-wrap: wrap; }
+  .it-bar { flex-wrap: wrap; height: auto; min-height: 51px; }
+  .it-scroll { padding: 16px 12px 12px; }
+  .it-mhead { flex-wrap: wrap; height: auto; min-height: 42px; }
+  .it-phead { flex-wrap: wrap; }
+  .it-proto-acts { flex-wrap: wrap; }
+  .it-mfoot { flex-wrap: wrap; }
+  .it-mhead { flex-wrap: wrap; }
+  .it-mfoot { flex-wrap: wrap; padding: 12px 12px 12px; }
+}

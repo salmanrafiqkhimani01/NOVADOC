@@ -29,3 +29,10 @@
   .c-body { flex-direction: column; }
   .c-side { width: 100%; }
 }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .c-bar { flex-wrap: wrap; }
+  .c-body { flex-wrap: wrap; }
+  .c-stat { flex-wrap: wrap; }
+}

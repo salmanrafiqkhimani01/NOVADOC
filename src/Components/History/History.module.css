@@ -75,3 +75,11 @@
   transition: opacity 0.2s, transform 0.2s;
 }
 .hist-toast-show { opacity: 1; transform: translateY(0); }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .hist-top { flex-wrap: wrap; }
+  .hist-newbox { flex-wrap: wrap; }
+  .hist-map-head { flex-wrap: wrap; }
+  .hist-map-row { flex-wrap: wrap; }
+}

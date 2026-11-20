@@ -19,3 +19,9 @@
   font-size: 9.5px; color: #64748b; cursor: pointer; font-family: inherit;
 }
 .add:hover { background: #f8fafc; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .header { flex-wrap: wrap; }
+  .add { flex-wrap: wrap; }
+}

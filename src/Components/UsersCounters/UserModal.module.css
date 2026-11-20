@@ -49,3 +49,12 @@
 .ucm-ghost:hover { background: #f1f5f9; }
 .ucm-primary { background: #4982cf; border: 1px solid #356fbb; color: #fff; }
 .ucm-primary:hover { background: #356fbb; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ucm-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .ucm-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px; }
+  .ucm-grid { grid-template-columns: minmax(0, 1fr); }
+  .ucm-active { flex-wrap: wrap; }
+  .ucm-foot { flex-wrap: wrap; }
+}

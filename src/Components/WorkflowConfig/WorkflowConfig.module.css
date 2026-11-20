@@ -83,3 +83,16 @@
   font-family: inherit; cursor: pointer;
 }
 .wf-save:hover { background: #356fbb; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .wf-wrap { padding: 12px 12px 12px; }
+  .wf-bar { flex-wrap: wrap; }
+  .wf-visit { width: 100%; max-width: 100%; }
+  .wf-step { overflow-x: auto; scrollbar-width: none; }
+  .wf-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .wf-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px 12px; }
+  .wf-row { grid-template-columns: minmax(0, 1fr); }
+  .wf-mfoot { flex-wrap: wrap; }
+  .wf-save { flex-wrap: wrap; }
+}

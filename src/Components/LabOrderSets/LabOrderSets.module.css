@@ -142,3 +142,28 @@
 .ls-msave { background: #4982cf; border: 1px solid #356fbb; color: #fff; }
 .ls-msave:hover { background: #356fbb; }
 .ls-msave:disabled { background: #bedbff; border-color: #bedbff; cursor: default; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ls-wrap { padding: 12px 12px 12px; }
+  .ls-head { flex-wrap: wrap; }
+  .ls-bar { flex-wrap: wrap; }
+  .ls-search { flex-wrap: wrap; }
+  .ls-grid { grid-template-columns: minmax(0, 1fr); }
+  .ls-ctop { flex-wrap: wrap; }
+  .ls-cmid { flex-wrap: wrap; }
+  .ls-exrow { flex-wrap: wrap; }
+  .ls-cfoot { flex-wrap: wrap; }
+  .ls-status { flex-wrap: wrap; }
+  .ls-cactions { flex-wrap: wrap; }
+  .ls-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .ls-modal { width: 100%; max-width: 100%; }
+  .ls-mhead { flex-wrap: wrap; padding: 12px 12px; }
+  .ls-mbody { grid-template-columns: minmax(0, 1fr); }
+  .ls-mleft { padding: 12px 12px; }
+  .ls-mright { padding: 18px 12px; }
+  .ls-mrhead { flex-wrap: wrap; }
+  .ls-msearch { flex-wrap: wrap; }
+  .ls-mtrow { flex-wrap: wrap; }
+  .ls-mfoot { flex-wrap: wrap; padding: 14px 12px; }
+}

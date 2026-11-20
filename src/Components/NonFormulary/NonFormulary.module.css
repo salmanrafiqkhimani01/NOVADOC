@@ -178,3 +178,25 @@
 .nf-fm-tab:hover { color: #1d293d; }
 .nf-fm-tab-on, .nf-fm-tab-on:hover { border-bottom-color: #4982cf; color: #4982cf; }
 .nf-fm-tab-on svg { color: #4982cf; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  *:has(> .nf-list) { flex-direction: column; height: auto; min-height: 0; overflow: visible; }
+  .nf-subtabs { overflow-x: auto; scrollbar-width: none; }
+  .nf-cat { flex-wrap: wrap; }
+  .nf-list { width: 100%; max-width: 100%; height: auto; max-height: 55vh; overflow-y: auto; }
+  .nf-search { flex-wrap: wrap; }
+  .nf-row { flex-wrap: wrap; }
+  .nf-rbrands { padding: 1px 12px 4px 12px; }
+  .nf-none { padding: 12px 12px; }
+  .nf-head { flex-wrap: wrap; }
+  .nf-htop { flex-wrap: wrap; }
+  .nf-brow { flex-wrap: wrap; }
+  .nf-icos { flex-wrap: wrap; }
+  .nf-addrow { flex-wrap: wrap; }
+  .nf-fgrid { grid-template-columns: minmax(0, 1fr); }
+  .nf-srow { flex-wrap: wrap; }
+  .nf-fm-wrap { height: auto; }
+  .nf-fm-header { padding: 18px 12px 14px; }
+  .nf-fm-tabs { overflow-x: auto; scrollbar-width: none; }
+}

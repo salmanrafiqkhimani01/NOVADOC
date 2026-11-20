@@ -88,3 +88,15 @@
 .srg-acts button:first-child:hover { color: #3b6fd4; background: #eef4fc; }
 .srg-acts button:last-child:hover { color: #dc2626; background: #fef2f2; }
 .srg-empty { padding: 30px 0; margin: 0; text-align: center; font-size: 11px; color: #94a3b8; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .srg-page { height: auto; }
+  .srg-header { padding: 18px 12px 15px; }
+  .srg-tabs { overflow-x: auto; scrollbar-width: none; }
+  .srg-bar { flex-wrap: wrap; padding: 10px 12px; }
+  .srg-search { width: 100%; max-width: 100%; flex-wrap: wrap; }
+  .srg-body { padding: 14px 12px 12px; }
+  .srg-form { flex-wrap: wrap; }
+  .srg-row { flex-wrap: wrap; height: auto; min-height: 42px; }
+}

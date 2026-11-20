@@ -49,3 +49,9 @@
   font: inherit; font-size: 10.5px; font-weight: 500; color: #1e293b; cursor: pointer;
 }
 .tri-addband:hover { background: #f8fafc; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .tri-route-grid { grid-template-columns: minmax(0, 1fr); }
+  .tri-scale { flex-wrap: wrap; }
+}

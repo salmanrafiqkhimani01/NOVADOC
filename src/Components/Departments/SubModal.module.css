@@ -35,3 +35,9 @@
 .dep-opt input { width: 13px; height: 13px; margin: 0; accent-color: #3b6fd4; cursor: pointer; }
 .dep-opt span { margin-left: auto; font-size: 9.5px; font-weight: 400; color: #94a3b8; }
 .dep-m-btns { display: flex; justify-content: flex-end; gap: 8px; margin-top: 18px; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .dep-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .dep-modal { width: 100%; max-width: 100%; padding: 18px 12px; }
+}

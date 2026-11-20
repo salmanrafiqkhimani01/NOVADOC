@@ -159,3 +159,27 @@
 .rt-pcancel:hover { background: #f1f5f9; }
 
 .rt-footmeta { margin: 10px 2px 0; text-align: right; font-size: 10px; color: #90a1b9; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 1100px) {
+  *:has(> .rt-peditrow), *:has(> .rt-prow), .rt-sbody *:has(> .rt-prow) { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+  .rt-wrap { padding: 12px 12px 12px; }
+  .rt-bar { flex-wrap: wrap; }
+  .rt-search { flex-wrap: wrap; }
+  .rt-filters { flex-wrap: wrap; }
+  .rt-card { flex-wrap: wrap; }
+  .rt-actions { flex-wrap: wrap; }
+  .rt-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .rt-pmodal { width: 100%; max-width: 100%; padding: 12px 12px 12px; }
+  .rt-phead { flex-wrap: wrap; }
+  .rt-prow { min-width: 470px; }
+  .rt-ehead { flex-wrap: wrap; }
+  .rt-addsection { flex-wrap: wrap; }
+  .rt-shead { flex-wrap: wrap; }
+  .rt-sactions { flex-wrap: wrap; }
+  .rt-sbody .rt-prow { min-width: 670px; }
+  .rt-pactions { flex-wrap: wrap; }
+  .rt-peditrow { min-width: 510px; }
+}

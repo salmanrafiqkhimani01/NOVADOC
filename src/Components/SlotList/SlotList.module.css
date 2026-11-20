@@ -3,3 +3,8 @@
 .slot-time b { display: block; font-family: 'JetBrains Mono', monospace; font-size: 9px; }
 .slot-time small { font-family: 'JetBrains Mono', monospace; font-size: 7.5px; color: #94a3b8; }
 .slot-appt { padding: 3px 8px; border-radius: 4px; background: #eef3ff; color: #1e4fd8; font-size: 9px; font-weight: 600; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .slot-row { flex-wrap: wrap; }
+}

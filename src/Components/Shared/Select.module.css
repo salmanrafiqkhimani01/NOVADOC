@@ -83,3 +83,8 @@
 .mapping .placeholder span { font-style: italic; color: #64748b; }
 .mapping .menu { top: auto; bottom: calc(100% + 4px); left: auto; right: -14px; width: 216px; z-index: 20; }
 .mapping .option:first-child { font-style: italic; color: #94a3b8; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .trigger { flex-wrap: wrap; }
+}

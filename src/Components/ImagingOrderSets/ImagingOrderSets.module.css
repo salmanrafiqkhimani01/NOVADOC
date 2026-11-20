@@ -168,4 +168,28 @@
 .io-mbox { display: grid; place-items: center; width: 14px; height: 14px; flex-shrink: 0; border: 1px solid #cad5e2; border-radius: 3px; background: #fff; color: #4982cf; }
 .io-mtrow-on .io-mbox { background: #eef3fb; border-color: #4982cf; }
 .io-mtname { font-size: 11px; color: #314158; }
-.io-mnone { margin: 0; padding: 20px; text-align: center; font-size: 11px; color: #90a1b9; } 
+.io-mnone { margin: 0; padding: 20px; text-align: center; font-size: 11px; color: #90a1b9; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .io-wrap { padding: 12px 12px 12px; }
+  .io-head { flex-wrap: wrap; }
+  .io-bar { flex-wrap: wrap; }
+  .io-search { flex-wrap: wrap; }
+  .io-grid { grid-template-columns: minmax(0, 1fr); }
+  .io-ctop { flex-wrap: wrap; }
+  .io-cmid { flex-wrap: wrap; }
+  .io-exrow { flex-wrap: wrap; }
+  .io-cfoot { flex-wrap: wrap; }
+  .io-status { flex-wrap: wrap; }
+  .io-cactions { flex-wrap: wrap; }
+  .io-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .io-modal { width: 100%; max-width: 100%; }
+  .io-mhead { flex-wrap: wrap; height: auto; min-height: 53px; }
+  .io-mbody { grid-template-columns: minmax(0, 1fr); }
+  .io-mfoot { flex-wrap: wrap; }
+  .io-mrhead { flex-wrap: wrap; }
+  .io-msearch { flex-wrap: wrap; }
+  .io-mtrow { flex-wrap: wrap; }
+  .io-mnone { padding: 12px; }
+}

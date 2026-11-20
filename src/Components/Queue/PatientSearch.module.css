@@ -23,3 +23,9 @@
 .pt-walk b { display: block; font-size: 10.5px; color: #92400e; }
 .pt-walk small { font-size: 8.5px; color: #b45309; }
 .pt-walk button { color: #d97706; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .pt-card { flex-wrap: wrap; }
+  .pt-walk { flex-wrap: wrap; }
+}

@@ -70,3 +70,11 @@
 .save { border: none; background: #4a7fd4; color: #fff; }
 .save:hover:not(:disabled) { background: #3b6fd4; }
 .save:disabled { background: #a9c2ea; cursor: not-allowed; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .modal { width: 100%; max-width: 100%; padding: 12px 12px 12px; }
+  .required { flex-wrap: wrap; }
+  .footer { grid-template-columns: minmax(0, 1fr); }
+}

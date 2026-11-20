@@ -64,3 +64,18 @@
 }
 .br-act button:hover { background: #eef2f6; color: #475569; }
 .br-empty { padding: 30px; text-align: center; font-size: 11px; color: #94a3b8; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 1100px) {
+  *:has(> .br-row) { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+  .br-wrap { padding: 12px 12px 12px; }
+  .br-top { flex-wrap: wrap; }
+  .br-tabs { overflow-x: auto; scrollbar-width: none; }
+  .br-soon { padding: 12px; }
+  .br-search { width: 100%; max-width: 100%; flex-wrap: wrap; }
+  .br-row { min-width: 1040px; }
+  .br-status { flex-wrap: wrap; }
+  .br-empty { padding: 12px; }
+}

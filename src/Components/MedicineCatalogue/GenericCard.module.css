@@ -63,3 +63,12 @@
 }
 .gc-baddbtn:hover { background: #356fbb; }
 .gc-baddplus { display: flex; justify-content: center; color: #cad5e2; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 1100px) {
+  *:has(> .gc-bgrid) { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+  .gc-ghead { flex-wrap: wrap; height: auto; min-height: 46px; }
+  .gc-bgrid { min-width: 380px; }
+}

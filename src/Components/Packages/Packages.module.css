@@ -214,3 +214,33 @@
 .pk-info svg { flex-shrink: 0; margin-top: 1px; color: #4982cf; }
 .pk-info p { margin: 0; font-size: 10.5px; line-height: 15px; color: #45556c; }
 .pk-info b { font-weight: 600; color: #1d293d; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 1100px) {
+  *:has(> .pk-row) { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+  .pk-wrap { padding: 12px 12px 12px; }
+  .pk-head { flex-wrap: wrap; }
+  .pk-bar { flex-wrap: wrap; }
+  .pk-search { width: 100%; max-width: 100%; flex-wrap: wrap; }
+  .pk-tabs { overflow-x: auto; scrollbar-width: none; }
+  .pk-row { min-width: 650px; }
+  .pk-status { flex-wrap: wrap; }
+  .pk-actions { flex-wrap: wrap; }
+  .pk-wiz { height: auto; }
+  .pk-whead { flex-wrap: wrap; height: auto; min-height: 48px; }
+  .pk-stepper { padding: 12px 12px 18px; }
+  .pk-si { flex-wrap: wrap; }
+  .pk-wfoot { flex-wrap: wrap; height: auto; min-height: 50px; }
+  .pk-types { grid-template-columns: minmax(0, 1fr); }
+  .pk-active { flex-wrap: wrap; }
+  .pk-step2 { grid-template-columns: minmax(0, 1fr); }
+  .pk-lhead, .pk-rhead { flex-wrap: wrap; }
+  .pk-lbar { flex-wrap: wrap; }
+  .pk-rbase { flex-wrap: wrap; }
+  .pk-dseg { overflow-x: auto; scrollbar-width: none; }
+  .pk-brow { flex-wrap: wrap; }
+  .pk-pair { grid-template-columns: minmax(0, 1fr); }
+  .pk-info { flex-wrap: wrap; }
+}

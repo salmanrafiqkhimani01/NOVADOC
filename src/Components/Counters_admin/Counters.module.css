@@ -82,3 +82,19 @@
   font-family: inherit; cursor: pointer;
 }
 .cn-save:hover { background: #356fbb; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 1100px) {
+  *:has(> .cn-row) { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+  .cn-wrap { padding: 12px 12px 12px; }
+  .cn-head { flex-wrap: wrap; }
+  .cn-row { min-width: 950px; }
+  .cn-status { flex-wrap: wrap; }
+  .cn-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .cn-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px 12px; }
+  .cn-frow { grid-template-columns: minmax(0, 1fr); }
+  .cn-mfoot { flex-wrap: wrap; }
+  .cn-save { flex-wrap: wrap; }
+}

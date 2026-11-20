@@ -31,3 +31,11 @@
 
 .btn-book { composes: confirm from "../DrawerFooter/DrawerFooter.module.css"; }
 .btn-cancel { composes: cancel from "../DrawerFooter/DrawerFooter.module.css"; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .slot-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .prio { grid-template-columns: minmax(0, 1fr); }
+  .row { flex-wrap: wrap; }
+  .search { flex-wrap: wrap; }
+}

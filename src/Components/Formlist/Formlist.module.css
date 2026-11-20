@@ -50,3 +50,12 @@
   border-radius: 4px; display: grid; place-items: center;
 }
 .adm-row-act button:hover { background: #f1f5f9; color: #475569; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .adm-wrap { padding: 12px 12px 12px; }
+  .adm-top { flex-wrap: wrap; }
+  .adm-stats { grid-template-columns: minmax(0, 1fr); }
+  .adm-row { flex-wrap: wrap; }
+  .adm-row-act { flex-wrap: wrap; }
+}

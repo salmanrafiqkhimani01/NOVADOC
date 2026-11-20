@@ -40,3 +40,17 @@
   .q-body { flex-direction: column; }
   .q-side, .q-side.wide { width: 100%; }
 }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  *:has(> .q-side) { flex-direction: column; height: auto; min-height: 0; overflow: visible; }
+  .q-body { flex-wrap: wrap; }
+  .q-side { width: 100%; max-width: 100%; height: auto; max-height: 55vh; overflow-y: auto; border-right: 0; border-left: 0; border-bottom: 1px solid #e6eaf0; }
+  .q-side.wide { width: 100%; max-width: 100%; }
+  .visit-card { flex-wrap: wrap; }
+  .steps { overflow-x: auto; scrollbar-width: none; }
+  .ms-bar { flex-wrap: wrap; }
+  .ms-stat { flex-wrap: wrap; }
+  .ms-filter { flex-wrap: wrap; }
+  .ms-none { padding: 12px; }
+}

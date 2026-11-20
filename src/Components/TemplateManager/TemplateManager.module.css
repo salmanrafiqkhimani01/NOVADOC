@@ -150,3 +150,18 @@
 .tm-save:hover { background: #356fbb; }
 .tm-save:disabled { opacity: .5; cursor: default; }
 .tm-save:disabled:hover { background: #4982cf; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  *:has(> .tm-panel) { flex-direction: column; height: auto; min-height: 0; overflow: visible; }
+  .tm-page { height: auto; }
+  .tm-header { flex-wrap: wrap; height: auto; min-height: 72px; }
+  .tm-bar { flex-wrap: wrap; padding: 10px 12px 11px; }
+  .tm-list { padding: 14px 12px; }
+  .tm-top { flex-wrap: wrap; }
+  .tm-panel { width: 100%; max-width: 100%; height: auto; max-height: 55vh; overflow-y: auto; border-right: 0; border-left: 0; border-bottom: 1px solid #e6eaf0; }
+  .tm-phead { flex-wrap: wrap; height: auto; min-height: 48px; }
+  .tm-secs { width: 100%; max-width: 100%; }
+  .tm-sec { flex-wrap: wrap; }
+  .tm-field { width: 100%; max-width: 100%; }
+}

@@ -78,3 +78,13 @@
 .cmb-acts button:first-child:hover { color: #3b6fd4; background: #eef4fc; }
 .cmb-acts button:last-child:hover { color: #dc2626; background: #fef2f2; }
 .cmb-empty { padding: 30px 0; margin: 0; text-align: center; font-size: 11px; color: #94a3b8; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .cmb-header { padding: 18px 12px 15px; }
+  .cmb-bar { flex-wrap: wrap; padding: 11px 12px 11px; }
+  .cmb-search { width: 100%; max-width: 100%; flex-wrap: wrap; }
+  .cmb-body { padding: 14px 12px 12px; }
+  .cmb-form { flex-wrap: wrap; }
+  .cmb-row { flex-wrap: wrap; height: auto; min-height: 42px; }
+}

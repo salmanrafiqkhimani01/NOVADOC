@@ -67,3 +67,13 @@
 .fee-b-apply { border: none; background: #4a7fd4; color: #fff; }
 .fee-b-apply:hover:not(:disabled) { background: #3b6fd4; }
 .fee-b-apply:disabled { background: #a9c2ea; cursor: not-allowed; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .fee-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .fee-modal { padding: 12px 12px; }
+  .fee-modal-bulk { width: 100%; max-width: 100%; }
+  .fee-b-row { flex-wrap: wrap; }
+  .fee-b-seg { overflow-x: auto; scrollbar-width: none; }
+  .fee-b-foot { flex-wrap: wrap; }
+}

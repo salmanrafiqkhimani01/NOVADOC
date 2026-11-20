@@ -40,3 +40,25 @@
   font-size: 11px; font-weight: 600; cursor: pointer; font-family: inherit;
 }
 .adm-danger button:hover { background: #fff1f2; }
+/* mobile toggle button: hidden on desktop */
+.adm-side-toggle {
+  display: none; margin-left: auto; width: 30px; height: 30px; place-items: center;
+  border: 1px solid #e2e8f0; border-radius: 6px; background: #fff; color: #475569; cursor: pointer;
+}
+/* on desktop the wrapper does not affect the layout */
+.adm-side-body { display: contents; }
+
+/* ===== mobile ===== */
+@media (max-width: 768px) {
+  .adm-side {
+    width: 100%; height: auto; max-height: calc(100vh - 56px); z-index: 40;
+    border-right: 0; border-bottom: 1px solid #e6eaf0;
+  }
+  .adm-side-head { height: 46px; border-bottom: 0; }
+  .adm-side-toggle { display: grid; }
+  .adm-side-body { display: none; }
+  .adm-side-body-open {
+    display: flex; flex-direction: column; flex: 1; min-height: 0;
+    border-top: 1px solid #eef1f5;
+  }
+}

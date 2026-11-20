@@ -31,3 +31,9 @@
 .ptb-rule-chip:hover { border-color: #cbd5e1; }
 .ptb-rule-chip:hover { border-color: #4a7fd4; }
 .ptb-rule-chip-on, .ptb-rule-chip-on:hover { border-color: #4a7fd4; background: #4a7fd4; color: #fff; font-weight: 600; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ptb-rule-head { flex-wrap: wrap; }
+  .ptb-rule-grid { grid-template-columns: minmax(0, 1fr); }
+}

@@ -41,3 +41,9 @@
 .bif-cond-head b { color: #78350f; }
 
 .bif-cond-list { margin: 13px 0 0 14px; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .bif-card-head { flex-wrap: wrap; }
+  .bif-cond-head { flex-wrap: wrap; }
+}

@@ -44,3 +44,12 @@
 .spc-btn-b { border: 1px solid #2f5fc0; background: #3b6fd4; color: #fff; font-weight: 600; }
 .spc-btn-b:hover { background: #1e4fd8; }
 .spc-btn-b:disabled { border-color: #a5bde8; background: #a5bde8; cursor: default; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .spc-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .spc-modal { width: 100%; max-width: 100%; padding: 12px 12px; }
+  .spc-modal h3 { flex-wrap: wrap; }
+  .spc-levels { grid-template-columns: minmax(0, 1fr); }
+  .spc-info-box { flex-wrap: wrap; }
+}

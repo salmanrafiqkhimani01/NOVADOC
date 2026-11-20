@@ -30,3 +30,9 @@
 }
 .hist-rule-chip:hover { border-color: #cbd5e1; }
 .hist-rule-chip-on, .hist-rule-chip-on:hover { border-color: #a9c1ea; background: #eef3fd; color: #3b6fd4; font-weight: 600; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .hist-rule-head { flex-wrap: wrap; }
+  .hist-rule-grid { grid-template-columns: minmax(0, 1fr); }
+}

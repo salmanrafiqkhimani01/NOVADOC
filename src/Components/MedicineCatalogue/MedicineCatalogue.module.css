@@ -70,3 +70,18 @@
 .mc-catchev-closed { transform: rotate(-90deg); }
 .mc-catbody { display: flex; flex-direction: column; gap: 9px; margin: 2px 0 8px 4px; padding: 2px 0 0 15px; border-left: 2px solid; }
 .mc-empty { margin: 30px 0; text-align: center; font-size: 11px; color: #90a1b9; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .mc-wrap { height: auto; }
+  .mc-header { padding: 18px 12px 14px; }
+  .mc-tabs { overflow-x: auto; scrollbar-width: none; }
+  .mc-body { flex-wrap: wrap; }
+  .mc-toolbar { padding: 12px 12px 13px; }
+  .mc-trow { flex-wrap: wrap; }
+  .mc-search { flex-wrap: wrap; }
+  .mc-tactions { flex-wrap: wrap; }
+  .mc-toolbar-narrow .mc-search { width: 100%; max-width: 100%; }
+  .mc-list { padding: 6px 12px 12px; }
+  .mc-cathead { flex-wrap: wrap; }
+}

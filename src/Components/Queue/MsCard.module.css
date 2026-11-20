@@ -16,3 +16,9 @@
 .ms-status.prog { color: #2563eb; }
 .ms-call { display: flex; align-items: center; gap: 4px; padding: 6px 10px; border: 1px solid #93b4ef; border-radius: 5px; background: #fff; color: #2563eb; font-size: 9px; font-weight: 600; cursor: pointer; }
 .ms-call:hover { background: #eff6ff; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ms-card { flex-wrap: wrap; }
+  .ms-status { flex-wrap: wrap; }
+}

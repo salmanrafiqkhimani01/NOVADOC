@@ -75,3 +75,15 @@
 .pk-fm-tab:hover { color: #1d293d; }
 .pk-fm-tab-on, .pk-fm-tab-on:hover { border-bottom-color: #4982cf; color: #4982cf; }
 .pk-fm-tab-on svg { color: #4982cf; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .pk-wrap { flex-wrap: wrap; }
+  .pk-side-narrow { flex: 1 1 100%; }
+  .pk-bar { flex-wrap: wrap; height: auto; min-height: 52px; }
+  .pk-row { flex-wrap: wrap; }
+  .pk-top { flex-wrap: wrap; }
+  .pk-fm-wrap { height: auto; }
+  .pk-fm-header { padding: 18px 12px 14px; }
+  .pk-fm-tabs { overflow-x: auto; scrollbar-width: none; }
+}

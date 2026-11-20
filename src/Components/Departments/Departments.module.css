@@ -58,3 +58,14 @@
 .dep-new-btns { margin-left: auto; display: flex; gap: 8px; }
 
 .dep-sub-toggle { margin-left: auto; margin-right: 8px; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .dep-wrap { padding: 14px 12px 12px; }
+  .dep-top { flex-wrap: wrap; }
+  .dep-head { flex-wrap: wrap; height: auto; min-height: 54px; }
+  .dep-sub { flex-wrap: wrap; height: auto; min-height: 44px; }
+  .dep-add-sub { flex-wrap: wrap; }
+  .dep-new { flex-wrap: wrap; }
+  .dep-new-in { width: 100%; max-width: 100%; }
+}

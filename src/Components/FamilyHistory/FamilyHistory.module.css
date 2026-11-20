@@ -58,3 +58,13 @@
 }
 .fh-acts button:hover { background: #fef2f2; color: #dc2626; }
 .fh-empty { padding: 20px 0; margin: 0; text-align: center; font-size: 11px; color: #94a3b8; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 1100px) {
+  *:has(> .fh-head), *:has(> .fh-row) { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+  .fh-wrap { padding: 12px 12px 12px; }
+  .fh-add { flex-wrap: wrap; }
+  .fh-head, .fh-row { min-width: 540px; }
+}

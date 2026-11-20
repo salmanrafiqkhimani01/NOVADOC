@@ -28,3 +28,13 @@
 
 .d-label { font-size: 8px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #475569; }
 .btn-book { composes: confirm from "../DrawerFooter/DrawerFooter.module.css"; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .row-between { flex-wrap: wrap; }
+  .mrn-box { flex-wrap: wrap; }
+  .mini-seg { overflow-x: auto; scrollbar-width: none; }
+  .age-grid { grid-template-columns: minmax(0, 1fr); }
+  .gender-seg { grid-template-columns: minmax(0, 1fr); }
+  .ptype { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

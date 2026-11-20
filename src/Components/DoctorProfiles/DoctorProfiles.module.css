@@ -42,3 +42,15 @@
 .dp-act { display: flex; justify-content: flex-end; gap: 6px; }
 .dp-act button { display: grid; place-items: center; padding: 4px; border: none; border-radius: 4px; background: none; color: #94a3b8; cursor: pointer; }
 .dp-act button:hover { background: #f1f5f9; color: #475569; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 1100px) {
+  *:has(> .dp-row) { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+  .dp-wrap { padding: 12px 12px 12px; }
+  .dp-top { flex-wrap: wrap; }
+  .dp-row { min-width: 880px; }
+  .dp-who { flex-wrap: wrap; }
+  .dp-status { flex-wrap: wrap; }
+}

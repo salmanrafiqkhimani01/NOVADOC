@@ -28,3 +28,10 @@
 .wsd-primary { background: #4982cf; border: 1px solid #356fbb; color: #fff; }
 .wsd-primary:hover { background: #356fbb; }
 .wsd-primary:disabled, .wsd-primary:disabled:hover { background: #4982cf; opacity: .45; cursor: not-allowed; box-shadow: none; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .wsd-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .wsd-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px; }
+  .wsd-foot { flex-wrap: wrap; }
+}

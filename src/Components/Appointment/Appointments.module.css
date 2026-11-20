@@ -32,3 +32,10 @@
 .arrow-btn { display: grid; place-items: center; width: 20px; height: 20px; border: 1px solid #d8dee8; border-radius: 4px; background: #fff; cursor: pointer; }
 .ap-label { min-width: 150px; text-align: center; font-size: 10px; font-weight: 600; }
 .today-btn { display: flex; align-items: center; gap: 4px; border: 0; background: none; color: #64748b; font-size: 9px; cursor: pointer; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ap-bar { flex-wrap: wrap; }
+  .ap-right { flex-wrap: wrap; }
+  .seg { overflow-x: auto; scrollbar-width: none; }
+}

@@ -26,3 +26,8 @@
   width: 28px; height: 28px; border-radius: 50%; background: #1e4fd8; color: #fff;
   font-size: 10px; font-weight: 700; display: grid; place-items: center; object-fit: cover;
 }
+
+/* ===== mobile ===== */
+@media (max-width: 768px) {
+  .pm-menu { max-width: calc(100vw - 24px); }
+}

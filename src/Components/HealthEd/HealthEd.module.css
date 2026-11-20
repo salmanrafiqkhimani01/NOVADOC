@@ -48,3 +48,12 @@
   border-radius: 4px; display: grid; place-items: center;
 }
 .hel-row-act button:hover { background: #f1f5f9; color: #475569; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .hel-wrap { padding: 12px 12px 12px; }
+  .hel-top { flex-wrap: wrap; }
+  .hel-search { flex-wrap: wrap; }
+  .hel-row { flex-wrap: wrap; }
+  .hel-row-act { flex-wrap: wrap; }
+}

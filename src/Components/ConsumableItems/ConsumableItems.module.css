@@ -125,3 +125,19 @@ input.ci-ecat { cursor: text; }
 .ci-x:hover { color: #ec003f; }
 
 .ci-empty { margin: 0; padding: 82px 0; text-align: center; font-size: 11.5px; color: #90a1b9; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ci-wrap { height: auto; }
+  .ci-header { padding: 18px 12px 16px; }
+  .ci-top { flex-wrap: wrap; }
+  .ci-toolbar { padding: 12px 12px; }
+  .ci-trow { flex-wrap: wrap; }
+  .ci-search { width: 100%; max-width: 100%; flex-wrap: wrap; }
+  .ci-tactions { flex-wrap: wrap; }
+  .ci-list { padding: 7px 12px 12px; }
+  .ci-cathead { flex-wrap: wrap; }
+  .ci-row { flex-wrap: wrap; }
+  .ci-acts { flex-wrap: wrap; }
+  .ci-ein { width: 100%; max-width: 100%; }
+}

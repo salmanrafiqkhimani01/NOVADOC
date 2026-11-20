@@ -4,3 +4,8 @@
 .confirm:disabled { opacity: .45; cursor: not-allowed; }
 .single .confirm { height: 28px; }
 .cancel { height: 26px; border: 1px solid #d8dee8; border-radius: 5px; background: #fff; font-size: 9.5px; cursor: pointer; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .footer { grid-template-columns: minmax(0, 1fr); }
+}

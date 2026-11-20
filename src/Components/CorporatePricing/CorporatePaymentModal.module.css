@@ -37,3 +37,11 @@
 .cra-primary { background: #4982cf; border: 1px solid #356fbb; color: #fff; }
 .cra-primary:hover { background: #356fbb; }
 .cra-primary:disabled, .cra-primary:disabled:hover { background: #4982cf; opacity: .4; cursor: not-allowed; box-shadow: none; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .cra-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .cra-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px; }
+  .cra-amount { flex-wrap: wrap; }
+  .cra-foot { flex-wrap: wrap; }
+}

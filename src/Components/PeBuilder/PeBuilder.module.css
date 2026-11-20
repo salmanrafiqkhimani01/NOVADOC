@@ -105,3 +105,16 @@
 .pe-add::placeholder { color: #64748b; }
 .pe-add:focus { border-color: #f87171; }
 .pe-hint { margin: 6px 0 0; font-size: 7.5px; font-style: italic; color: #94a3b8; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .pe-page { height: auto; }
+  .pe-header { flex-wrap: wrap; padding: 17px 12px 13px; }
+  .pe-specs { flex-wrap: wrap; padding: 9px 12px; }
+  .pe-spec-lbl { flex-wrap: wrap; }
+  .pe-banner { flex-wrap: wrap; padding: 5px 12px; }
+  .pe-body { padding: 15px 12px 12px; }
+  .pe-sys-head { flex-wrap: wrap; height: auto; min-height: 40px; }
+  .pe-sec-head { flex-wrap: wrap; }
+  .pe-normal { flex-wrap: wrap; }
+}

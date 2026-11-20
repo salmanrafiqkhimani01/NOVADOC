@@ -53,3 +53,12 @@
 .ros-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 21px; }
 .ros-saved { display: flex; align-items: center; gap: 5px; font-size: 10.5px; font-weight: 600; color: #16a34a; }
 .ros-save { height: 34px; padding: 0 15px; font-size: 12.5px; border-radius: 5px; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ros-wrap { padding: 12px 12px 12px; }
+  .ros-bar { flex-wrap: wrap; }
+  .ros-head { flex-wrap: wrap; }
+  .ros-body { padding: 11px 12px 13px 18px; }
+  .ros-foot { flex-wrap: wrap; }
+}

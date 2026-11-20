@@ -288,3 +288,27 @@
 }
 .fee-sw-on { background: #3b6fd4; }
 .fee-sw-on::after { left: 13px; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 1100px) {
+  *:has(> .fee-frow), *:has(> .fee-table) { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+  *:has(> .fee-left) { flex-direction: column; height: auto; min-height: 0; overflow: visible; }
+  .fee-page { height: auto; }
+  .fee-body { flex-wrap: wrap; }
+  .fee-left { width: 100%; max-width: 100%; height: auto; max-height: 55vh; overflow-y: auto; }
+  .fee-doc { flex-wrap: wrap; }
+  .fee-head { flex-wrap: wrap; }
+  .fee-head-right { flex-wrap: wrap; }
+  .fee-note { flex-wrap: wrap; }
+  .fee-dept-head { flex-wrap: wrap; }
+  .fee-subhead { flex-wrap: wrap; }
+  .fee-frow { min-width: 470px; }
+  .fee-seg { overflow-x: auto; scrollbar-width: none; }
+  .fee-tools { flex-wrap: wrap; }
+  .fee-th-svc { flex-wrap: wrap; }
+  .fee-svc { flex-wrap: wrap; }
+  .fee-usebase { flex-wrap: wrap; }
+  .fee-tfoot { flex-wrap: wrap; }
+}

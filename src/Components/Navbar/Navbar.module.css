@@ -24,3 +24,16 @@
   .nav-link { font-size: 0; gap: 0; }
   .nav-search { display: none; }
 }
+
+/* ===== mobile ===== */
+@media (max-width: 768px) {
+  .navbar { padding: 0 12px; gap: 8px; }
+  .logo { font-size: 18px; flex-shrink: 0; }
+  .logo svg { width: 20px; height: 18px; }
+  .nav { min-width: 0; justify-content: flex-start; overflow-x: auto; scrollbar-width: none; }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav-link { padding: 6px 8px; }
+  .chev { display: none; }
+  .dropdown { position: fixed; top: 56px; left: 8px; right: 8px; width: auto; max-height: calc(100vh - 72px); overflow-y: auto; z-index: 60; }
+  .nav-right { gap: 10px; flex-shrink: 0; }
+}

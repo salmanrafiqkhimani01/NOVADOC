@@ -92,3 +92,20 @@
 .cpm-in::-webkit-outer-spin-button, .cpm-in::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 .cpm-in:focus { border-color: #4982cf; box-shadow: 0 0 0 1px #4982cf; }
 .cpm-none { margin: 0; padding: 24px; text-align: center; font-size: 11px; color: #90a1b9; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .cpm-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .cpm-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px; }
+  .cpm-head { flex-wrap: wrap; }
+  .cpm-steps { overflow-x: auto; scrollbar-width: none; }
+  .cpm-step { overflow-x: auto; scrollbar-width: none; }
+  .cpm-grid { grid-template-columns: minmax(0, 1fr); }
+  .cpm-foot { flex-wrap: wrap; }
+  .cpm-foot-r { flex-wrap: wrap; }
+  .cpm-tools { flex-wrap: wrap; }
+  .cpm-search { width: 100%; max-width: 100%; flex-wrap: wrap; }
+  .cpm-cat { flex-wrap: wrap; }
+  .cpm-row { flex-wrap: wrap; }
+  .cpm-none { padding: 12px; }
+}

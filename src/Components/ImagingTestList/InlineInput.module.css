@@ -23,3 +23,9 @@
 /* rename inside a modality / body-part header */
 .ii-flat { flex: 1; min-width: 0; margin-right: 8px; }
 .ii-flat .ii-input { height: 24px; font-size: 12px; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ii-row { flex-wrap: wrap; }
+  .ii-part { padding: 10px 16px 10px 12px; }
+}

@@ -24,3 +24,9 @@
 .dmg-btn-b { border: 1px solid #2f5fc0; background: #3b6fd4; color: #fff; font-weight: 600; }
 .dmg-btn-b:hover { background: #1e4fd8; }
 .dmg-btn-b:disabled { background: #93b0e6; border-color: #93b0e6; cursor: default; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .dmg-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .dmg-modal { width: 100%; max-width: 100%; padding: 18px 12px; }
+}

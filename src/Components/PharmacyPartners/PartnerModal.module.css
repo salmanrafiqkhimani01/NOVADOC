@@ -95,3 +95,23 @@
 .pm-num-in::-webkit-outer-spin-button, .pm-num-in::-webkit-inner-spin-button {  -webkit-appearance: none; margin: 0; }
 .pm-num-in:focus { border-color: #4982cf; box-shadow: 0 0 0 1px #4982cf; }
 .pm-none { margin: 0; padding: 24px; text-align: center; font-size: 11px; color: #90a1b9; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 1100px) {
+  *:has(> .pm-trow) { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+  .pm-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .pm-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px; }
+  .pm-head { flex-wrap: wrap; }
+  .pm-steps { overflow-x: auto; scrollbar-width: none; }
+  .pm-step { overflow-x: auto; scrollbar-width: none; }
+  .pm-grid { grid-template-columns: minmax(0, 1fr); }
+  .pm-foot { flex-wrap: wrap; }
+  .pm-foot-r { flex-wrap: wrap; }
+  .pm-tools { flex-wrap: wrap; }
+  .pm-search { width: 100%; max-width: 100%; flex-wrap: wrap; }
+  .pm-grow { flex-wrap: wrap; }
+  .pm-trow { min-width: 440px; }
+  .pm-none { padding: 12px; }
+}

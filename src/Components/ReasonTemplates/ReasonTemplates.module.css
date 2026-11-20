@@ -64,3 +64,14 @@
 .rt-rtok, .rt-rtx { display: grid; place-items: center; padding: 2px; border: none; background: none; cursor: pointer; }
 .rt-rtok { color: #00a63e; }
 .rt-rtx { color: #ec003f; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .rt-wrap { height: auto; }
+  .rt-header { padding: 18px 12px 16px; }
+  .rt-hrow { flex-wrap: wrap; }
+  .rt-bar { flex-wrap: wrap; height: auto; min-height: 51px; }
+  .rt-scroll { padding: 16px 12px 12px; }
+  .rt-rtadd { flex-wrap: wrap; padding: 12px 12px; }
+  .rt-rt { flex-wrap: wrap; }
+}

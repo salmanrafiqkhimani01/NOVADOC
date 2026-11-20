@@ -67,3 +67,17 @@
 .pp-tnum { text-align: right; font-size: 11px; color: #314158; }
 
 .pp-empty { margin: 30px 0; text-align: center; font-size: 11px; color: #90a1b9; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 1100px) {
+  *:has(> .pp-trow) { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+  .pp-bar { flex-wrap: wrap; }
+  .pp-list { padding: 12px 12px 12px; }
+  .pp-head { flex-wrap: wrap; height: auto; min-height: 55px; }
+  .pp-acts { flex-wrap: wrap; }
+  .pp-bbar { flex-wrap: wrap; }
+  .pp-none { padding: 12px 16px; }
+  .pp-trow { min-width: 490px; }
+}

@@ -59,3 +59,12 @@
   font-family: inherit; cursor: pointer; box-shadow: 0 1px 2px rgba(0, 0, 0, .12);
 }
 .ns-save:hover { background: #3b6fd4; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ns-wrap { padding: 12px 12px 12px 12px; }
+  .ns-config { flex-wrap: wrap; }
+  .ns-legend { flex-wrap: wrap; }
+  .ns-row { flex-wrap: wrap; height: auto; min-height: 46px; }
+  .ns-foot { flex-wrap: wrap; }
+}

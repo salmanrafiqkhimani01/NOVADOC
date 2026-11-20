@@ -53,3 +53,13 @@
 .fee-btn-cancel:hover { background: #f8fafc; }
 .fee-btn-confirm { border: none; background: #4a7fd4; color: #fff; }
 .fee-btn-confirm:hover { background: #3b6fd4; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .fee-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .fee-modal { padding: 12px 12px; }
+  .fee-modal-assign { width: 100%; max-width: 100%; }
+  .fee-m-search { flex-wrap: wrap; }
+  .fee-m-empty { padding: 12px; }
+  .fee-m-foot { flex-wrap: wrap; }
+}

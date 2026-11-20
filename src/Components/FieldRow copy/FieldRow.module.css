@@ -108,3 +108,8 @@
 .bif-sw-on { background: #4a7fd4; }
 
 .bif-sw-on::after { left: 17px; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .bif-row { flex-wrap: wrap; }
+}

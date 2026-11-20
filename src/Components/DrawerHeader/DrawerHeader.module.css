@@ -3,3 +3,9 @@
 .header small { font-size: 8px; color: #94a3b8; }
 .row { display: flex; align-items: center; gap: 8px; }
 .iconButton { display: grid; place-items: center; padding: 4px; border: 0; background: none; color: #64748b; cursor: pointer; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .header { flex-wrap: wrap; }
+  .row { flex-wrap: wrap; }
+}

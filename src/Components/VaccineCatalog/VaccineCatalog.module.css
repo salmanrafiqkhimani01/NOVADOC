@@ -210,3 +210,28 @@
 .vc-mnext:disabled { background: #a0bee6; border-color: #a0bee6; cursor: not-allowed; }
 .vc-mback { height: 28px; padding: 0 11px; font-size: 11px; }
 .vc-msave { height: 28px; padding: 0 12px; font-size: 11px; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .vc-wrap { padding: 12px 12px 12px; }
+  .vc-head { flex-wrap: wrap; }
+  .vc-tabs { overflow-x: auto; scrollbar-width: none; }
+  .vc-toolbar { flex-wrap: wrap; }
+  .vc-search { flex-wrap: wrap; }
+  .vc-newsection { flex-wrap: wrap; }
+  .vc-shead { flex-wrap: wrap; }
+  .vc-sactions { flex-wrap: wrap; }
+  .vc-vrow { flex-wrap: wrap; padding: 7px 12px 7px 18px; }
+  .vc-erow { flex-wrap: wrap; }
+  .vc-fline { flex-wrap: wrap; }
+  .vc-newrow { flex-wrap: wrap; }
+  .vc-pchead { flex-wrap: wrap; height: auto; min-height: 55px; }
+  .vc-prow { flex-wrap: wrap; height: auto; min-height: 44px; }
+  .vc-price { flex-wrap: wrap; }
+  .vc-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .vc-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px; }
+  .vc-mtypes { grid-template-columns: minmax(0, 1fr); }
+  .vc-msearch { flex-wrap: wrap; }
+  .vc-mrow { flex-wrap: wrap; }
+  .vc-mfoot { flex-wrap: wrap; }
+}

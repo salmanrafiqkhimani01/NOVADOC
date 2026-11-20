@@ -19,3 +19,10 @@
 @media (max-width: 900px) {
   .grid { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* ===== mobile ===== */
+@media (max-width: 768px) {
+  .modules { padding: 14px 12px; }
+  .modules-head { flex-wrap: wrap; gap: 8px; }
+  .grid { gap: 8px; }
+}

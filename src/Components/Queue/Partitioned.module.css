@@ -37,3 +37,14 @@
   .q-body { flex-direction: column; }
   .q-side { width: 100%; }
 }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  *:has(> .q-side) { flex-direction: column; height: auto; min-height: 0; overflow: visible; }
+  .q-body { flex-wrap: wrap; }
+  .q-side { width: 100%; max-width: 100%; height: auto; max-height: 55vh; overflow-y: auto; border-right: 0; border-left: 0; border-bottom: 1px solid #e6eaf0; }
+  .doc-card { flex-wrap: wrap; }
+  .view-bar { flex-wrap: wrap; }
+  .doc-head { flex-wrap: wrap; }
+  .tok { flex-wrap: wrap; }
+}

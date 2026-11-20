@@ -152,3 +152,13 @@
   display: grid; place-items: center; height: 36px;
   border: 1px dashed #dbe2ec; border-radius: 8px; font-size: 9.5px; color: #94a3b8;
 }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .ptb-cus-head { flex-wrap: wrap; }
+  .ptb-rep { flex-wrap: wrap; }
+  .ptb-repset { grid-template-columns: minmax(0, 1fr); }
+  .ptb-seg, .ptb-cols { flex-wrap: wrap; }
+  .ptb-row { flex-wrap: wrap; }
+  .ptb-rules-head { flex-wrap: wrap; }
+}

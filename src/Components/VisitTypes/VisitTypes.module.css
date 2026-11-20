@@ -85,3 +85,18 @@
   font-family: inherit; cursor: pointer;
 }
 .vt-save:hover { background: #356fbb; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .vt-wrap { padding: 12px 12px 12px; }
+  .vt-head { flex-wrap: wrap; }
+  .vt-grid { grid-template-columns: minmax(0, 1fr); }
+  .vt-top { flex-wrap: wrap; }
+  .vt-foot { flex-wrap: wrap; }
+  .vt-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .vt-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px 12px; }
+  .vt-row { grid-template-columns: minmax(0, 1fr); }
+  .vt-active { flex-wrap: wrap; }
+  .vt-mfoot { flex-wrap: wrap; }
+  .vt-save { flex-wrap: wrap; }
+}

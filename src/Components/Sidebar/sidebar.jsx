@@ -204,6 +204,7 @@ const MENU = [
 export const Sidebar = () => {
   const [open, setOpen] = useState({});
   const [showReset, setShowReset] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
   const { pathname } = useLocation();
 
   const toggle = (label) => {
@@ -219,8 +220,24 @@ export const Sidebar = () => {
         <div className={StylingSidebar["adm-side-head"]}>
           <Settings size={14} />
           <span>Admin Settings</span>
+
+          {/* mobile only: shows / hides the menu */}
+          <button
+            type="button"
+            className={StylingSidebar["adm-side-toggle"]}
+            onClick={() => setMobileOpen(!mobileOpen)}
+            aria-expanded={mobileOpen}
+            aria-label="Toggle admin menu"
+          >
+            {mobileOpen ? <ChevronDown size={15} /> : <ChevronRight size={15} />}
+          </button>
         </div>
 
+        <div
+          className={`${StylingSidebar["adm-side-body"]} ${
+            mobileOpen ? StylingSidebar["adm-side-body-open"] : ""
+          }`}
+        >
         <div className={StylingSidebar["adm-side-list"]}>
           {MENU.map((group) => {
             const GroupIcon = group.icon;
@@ -260,6 +277,7 @@ export const Sidebar = () => {
                       <Link
                         key={item.key}
                         to={to}
+                        onClick={() => setMobileOpen(false)}
                         className={`${StylingSidebar["adm-sub"]} ${
                           pathname === to
                             ? StylingSidebar["adm-sub-on"]
@@ -288,6 +306,7 @@ export const Sidebar = () => {
             <Trash2 size={12} />
             <span>Reset All App Data</span>
           </button>
+        </div>
         </div>
       </aside>
 

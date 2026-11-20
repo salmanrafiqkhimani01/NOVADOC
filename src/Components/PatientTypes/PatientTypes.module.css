@@ -186,3 +186,13 @@
 .pty-m-save { border: none; background: #4a7fd4; color: #fff; }
 .pty-m-save:hover:not(:disabled) { background: #3b6fd4; }
 .pty-m-save:disabled { background: #a9c2ea; cursor: not-allowed; }
+
+/* ===== responsive (tablet & mobile) ===== */
+@media (max-width: 768px) {
+  .pty-head { flex-wrap: wrap; }
+  .pty-row { flex-wrap: wrap; }
+  .pty-overlay { padding: 12px; overflow-y: auto; align-items: flex-start; }
+  .pty-modal { width: 100%; max-width: 100%; padding: 12px 12px 12px; }
+  .pty-m-req { flex-wrap: wrap; }
+  .pty-m-foot { grid-template-columns: minmax(0, 1fr); }
+}
